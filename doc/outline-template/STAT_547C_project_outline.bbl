@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.0 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -19,345 +19,336 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{Dawid:1979:CondIndStatTheory}{article}{}
-      \name{author}{1}{}{%
-        {{hash=4016275a6a7dc086e196dd10c2f7520d}{%
-           family={Dawid},
-           familyi={D\bibinitperiod},
-           given={A.\bibnamedelimi P.},
-           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+    \entry{Sun:2011}{article}{}
+      \name{author}{4}{}{%
+        {{hash=17601f7900f3c842bbfb42d17ceea812}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Fengchun},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4c2223c6a8a46ddd60adaf8fc3a359a6}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Xiaosong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ad891d6866b2ad2b93883e717987888b}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1e774397cc1d694191bda85fcd7fe364}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Siguang},
+           giveni={S\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {[Royal Statistical Society, Wiley]}%
+        {Elsevier}%
       }
-      \strng{namehash}{4016275a6a7dc086e196dd10c2f7520d}
-      \strng{fullhash}{4016275a6a7dc086e196dd10c2f7520d}
-      \strng{bibnamehash}{4016275a6a7dc086e196dd10c2f7520d}
-      \strng{authorbibnamehash}{4016275a6a7dc086e196dd10c2f7520d}
-      \strng{authornamehash}{4016275a6a7dc086e196dd10c2f7520d}
-      \strng{authorfullhash}{4016275a6a7dc086e196dd10c2f7520d}
-      \field{extraname}{1}
-      \field{labelalpha}{Daw79}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \strng{namehash}{54b26db5f4a366eaf6778dba302907ac}
+      \strng{fullhash}{689e48ce622693202b15e8b5b5ca0c5c}
+      \strng{bibnamehash}{54b26db5f4a366eaf6778dba302907ac}
+      \strng{authorbibnamehash}{54b26db5f4a366eaf6778dba302907ac}
+      \strng{authornamehash}{54b26db5f4a366eaf6778dba302907ac}
+      \strng{authorfullhash}{689e48ce622693202b15e8b5b5ca0c5c}
+      \field{labelalpha}{Sun+11}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Some simple heuristic properties of conditional independence are shown to form a conceptual framework for much of the theory of statistical inference. This framework is illustrated by an examination of the role of conditional independence in several diverse areas of the field of statistics. Topics covered include sufficiency and ancillarity, parameter identification, causal inference, prediction sufficiency, data selection mechanisms, invariant statistical models and a subjectivist approach to model-building.}
-      \field{journaltitle}{J. Royal Stat. Soc. Ser. B}
-      \field{number}{1}
-      \field{title}{Conditional Independence in Statistical Theory}
-      \field{volume}{41}
-      \field{year}{1979}
-      \field{pages}{1\bibrangedash 31}
-      \range{pages}{31}
+      \field{journaltitle}{Energy}
+      \field{number}{5}
+      \field{title}{Adaptive unscented Kalman filtering for state of charge estimation of a lithium-ion battery for electric vehicles}
+      \field{volume}{36}
+      \field{year}{2011}
+      \field{pages}{3531\bibrangedash 3540}
+      \range{pages}{10}
     \endentry
-    \entry{Dawid:1980:CondIndStatOp}{article}{}
-      \name{author}{1}{}{%
-        {{hash=4016275a6a7dc086e196dd10c2f7520d}{%
-           family={Dawid},
-           familyi={D\bibinitperiod},
-           given={A.\bibnamedelimi P.},
-           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+    \entry{Patwardhan:2012}{article}{}
+      \name{author}{5}{}{%
+        {{hash=0ee52335ff0ca30bf1707b47de5b4e86}{%
+           family={Patwardhan},
+           familyi={P\bibinitperiod},
+           given={Sachin\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=92c3202bee4075606cff3c69e1239068}{%
+           family={Narasimhan},
+           familyi={N\bibinitperiod},
+           given={Shankar},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3935fd2160870dccc406390b3343df9d}{%
+           family={Jagadeesan},
+           familyi={J\bibinitperiod},
+           given={Prakash},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9ff773d5f5b647220de43fcd811e98a2}{%
+           family={Gopaluni},
+           familyi={G\bibinitperiod},
+           given={Bhushan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=58639356c2dc5254f72f36c7a411f4b3}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Sirish\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Institute of Mathematical Statistics}%
-      }
-      \strng{namehash}{4016275a6a7dc086e196dd10c2f7520d}
-      \strng{fullhash}{4016275a6a7dc086e196dd10c2f7520d}
-      \strng{bibnamehash}{4016275a6a7dc086e196dd10c2f7520d}
-      \strng{authorbibnamehash}{4016275a6a7dc086e196dd10c2f7520d}
-      \strng{authornamehash}{4016275a6a7dc086e196dd10c2f7520d}
-      \strng{authorfullhash}{4016275a6a7dc086e196dd10c2f7520d}
-      \field{extraname}{2}
-      \field{labelalpha}{Daw80}
+      \strng{namehash}{2bcc34781fd9c012f086fe42c9a2c96b}
+      \strng{fullhash}{ad8f6b5a80720630977e8de6ba1bd126}
+      \strng{bibnamehash}{2bcc34781fd9c012f086fe42c9a2c96b}
+      \strng{authorbibnamehash}{2bcc34781fd9c012f086fe42c9a2c96b}
+      \strng{authornamehash}{2bcc34781fd9c012f086fe42c9a2c96b}
+      \strng{authorfullhash}{ad8f6b5a80720630977e8de6ba1bd126}
+      \field{labelalpha}{Pat+12}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{The Annals of Statistics}
-      \field{number}{3}
-      \field{title}{Conditional Independence for Statistical Operations}
-      \field{volume}{8}
-      \field{year}{1980}
-      \field{pages}{598\bibrangedash 617}
-      \range{pages}{20}
+      \field{issn}{0967-0661}
+      \field{journaltitle}{Control Engineering Practice}
+      \field{note}{4th Symposium on Advanced Control of Industrial Processes (ADCONIP)}
+      \field{number}{10}
+      \field{title}{Nonlinear Bayesian state estimation: A review of recent developments}
+      \field{volume}{20}
+      \field{year}{2012}
+      \field{pages}{933\bibrangedash 953}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.conengprac.2012.04.003
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0967066112000871
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0967066112000871
+      \endverb
+      \keyw{Sequential Bayesian state estimation,Constrained state estimation,Multi-rate sampling,Observer stability,State and parameter estimation}
     \endentry
-    \entry{Kallenberg:2002}{book}{}
+    \entry{Sullivan:2015}{book}{}
       \name{author}{1}{}{%
-        {{hash=f6bb1091b9da51c1ac66f8a4a75fcba9}{%
-           family={Kallenberg},
-           familyi={K\bibinitperiod},
-           given={Olav},
-           giveni={O\bibinitperiod}}}%
+        {{hash=99cef314bd7ed4faca8c1a089f9f0f5e}{%
+           family={Sullivan},
+           familyi={S\bibinitperiod},
+           given={Timothy\bibnamedelima John},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Springer-Verlag New York}%
+        {Springer}%
       }
-      \strng{namehash}{f6bb1091b9da51c1ac66f8a4a75fcba9}
-      \strng{fullhash}{f6bb1091b9da51c1ac66f8a4a75fcba9}
-      \strng{bibnamehash}{f6bb1091b9da51c1ac66f8a4a75fcba9}
-      \strng{authorbibnamehash}{f6bb1091b9da51c1ac66f8a4a75fcba9}
-      \strng{authornamehash}{f6bb1091b9da51c1ac66f8a4a75fcba9}
-      \strng{authorfullhash}{f6bb1091b9da51c1ac66f8a4a75fcba9}
-      \field{labelalpha}{Kal02}
+      \strng{namehash}{99cef314bd7ed4faca8c1a089f9f0f5e}
+      \strng{fullhash}{99cef314bd7ed4faca8c1a089f9f0f5e}
+      \strng{bibnamehash}{99cef314bd7ed4faca8c1a089f9f0f5e}
+      \strng{authorbibnamehash}{99cef314bd7ed4faca8c1a089f9f0f5e}
+      \strng{authornamehash}{99cef314bd7ed4faca8c1a089f9f0f5e}
+      \strng{authorfullhash}{99cef314bd7ed4faca8c1a089f9f0f5e}
+      \field{labelalpha}{Sul15}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to uncertainty quantification}
+      \field{volume}{63}
+      \field{year}{2015}
+    \endentry
+    \entry{Maybeck:1982}{book}{}
+      \name{author}{1}{}{%
+        {{hash=902a0e94b709ae31eb2d9a2c91500afc}{%
+           family={Maybeck},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelima S},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic press}%
+      }
+      \strng{namehash}{902a0e94b709ae31eb2d9a2c91500afc}
+      \strng{fullhash}{902a0e94b709ae31eb2d9a2c91500afc}
+      \strng{bibnamehash}{902a0e94b709ae31eb2d9a2c91500afc}
+      \strng{authorbibnamehash}{902a0e94b709ae31eb2d9a2c91500afc}
+      \strng{authornamehash}{902a0e94b709ae31eb2d9a2c91500afc}
+      \strng{authorfullhash}{902a0e94b709ae31eb2d9a2c91500afc}
+      \field{labelalpha}{May82}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stochastic models, estimation, and control}
+      \field{volume}{3}
+      \field{year}{1982}
+    \endentry
+    \entry{Welch:Bishop:2001}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{hash=e4f38e96180c309ad00c07afe4fbac50}{%
+           family={Bishop},
+           familyi={B\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+        {{hash=19eb8ef0f1cf49ad4375a0a4acc3a385}{%
+           family={Welch},
+           familyi={W\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef818981bc6c04614d5fe6503c751306}
+      \strng{fullhash}{ef818981bc6c04614d5fe6503c751306}
+      \strng{bibnamehash}{ef818981bc6c04614d5fe6503c751306}
+      \strng{authorbibnamehash}{ef818981bc6c04614d5fe6503c751306}
+      \strng{authornamehash}{ef818981bc6c04614d5fe6503c751306}
+      \strng{authorfullhash}{ef818981bc6c04614d5fe6503c751306}
+      \field{labelalpha}{BW+01}
       \field{sortinit}{6}
       \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{2nd}
-      \field{title}{Foundations of Modern Probability}
-      \field{year}{2002}
+      \field{journaltitle}{Proc of SIGGRAPH, Course}
+      \field{number}{27599-23175}
+      \field{title}{An introduction to the kalman filter}
+      \field{volume}{8}
+      \field{year}{2001}
+      \field{pages}{41}
+      \range{pages}{1}
     \endentry
-    \entry{Bishop:2006}{book}{}
-      \name{author}{1}{}{%
-        {{hash=f092f589860326a712a3322c4b6cc6b7}{%
-           family={Bishop},
-           familyi={B\bibinitperiod},
-           given={Christopher},
-           giveni={C\bibinitperiod}}}%
+    \entry{Tulsyan:2016:ParticleFilter}{article}{}
+      \name{author}{3}{}{%
+        {{hash=88f5386f7d0e5ebaaa95f096a828ff9d}{%
+           family={Tulsyan},
+           familyi={T\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4a25637181f27c5ddc5789d69c6fd9f0}{%
+           family={Gopaluni},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi Bhushan},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=217220a8ece958cfa2f427b535727432}{%
+           family={Khare},
+           familyi={K\bibinitperiod},
+           given={Swanand\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Springer--Verlag New York}%
-      }
-      \strng{namehash}{f092f589860326a712a3322c4b6cc6b7}
-      \strng{fullhash}{f092f589860326a712a3322c4b6cc6b7}
-      \strng{bibnamehash}{f092f589860326a712a3322c4b6cc6b7}
-      \strng{authorbibnamehash}{f092f589860326a712a3322c4b6cc6b7}
-      \strng{authornamehash}{f092f589860326a712a3322c4b6cc6b7}
-      \strng{authorfullhash}{f092f589860326a712a3322c4b6cc6b7}
-      \field{labelalpha}{Bis06}
+      \strng{namehash}{33e669d30ea2f1d2112e51069db4157f}
+      \strng{fullhash}{33e669d30ea2f1d2112e51069db4157f}
+      \strng{bibnamehash}{33e669d30ea2f1d2112e51069db4157f}
+      \strng{authorbibnamehash}{33e669d30ea2f1d2112e51069db4157f}
+      \strng{authornamehash}{33e669d30ea2f1d2112e51069db4157f}
+      \strng{authorfullhash}{33e669d30ea2f1d2112e51069db4157f}
+      \field{labelalpha}{TGK16}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Pattern Recognition and Machine Learning}
-      \field{year}{2006}
+      \field{issn}{0098-1354}
+      \field{journaltitle}{{Computers \& Chemical Engineering}}
+      \field{title}{Particle filtering without tears: A primer for beginners}
+      \field{volume}{95}
+      \field{year}{2016}
+      \field{pages}{130\bibrangedash 145}
+      \range{pages}{16}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.compchemeng.2016.08.015
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0098135416302769
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0098135416302769
+      \endverb
+      \keyw{Monte Carlo method,Particle filter,State estimation,Bayesian inference}
     \endentry
-    \entry{Lauritzen:1996:GraphMod}{book}{}
-      \name{author}{1}{}{%
-        {{hash=fef1a84e2e6e3cb207d76e8e74984b93}{%
-           family={Lauritzen},
-           familyi={L\bibinitperiod},
-           given={Steffen\bibnamedelima L.},
-           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Oxford, UK}%
-      }
-      \list{publisher}{1}{%
-        {Oxford University Press}%
-      }
-      \strng{namehash}{fef1a84e2e6e3cb207d76e8e74984b93}
-      \strng{fullhash}{fef1a84e2e6e3cb207d76e8e74984b93}
-      \strng{bibnamehash}{fef1a84e2e6e3cb207d76e8e74984b93}
-      \strng{authorbibnamehash}{fef1a84e2e6e3cb207d76e8e74984b93}
-      \strng{authornamehash}{fef1a84e2e6e3cb207d76e8e74984b93}
-      \strng{authorfullhash}{fef1a84e2e6e3cb207d76e8e74984b93}
-      \field{labelalpha}{Lau96}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Graphical Mdoels}
-      \field{year}{1996}
-    \endentry
-    \entry{Koller:Friedman:2009:PGM}{book}{}
-      \name{author}{2}{}{%
-        {{hash=9c785bcf6b8a0b99e44695299a6aecb2}{%
-           family={Koller},
+    \entry{Gyorgy:2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d3792816e1676b32031dda967b9813e8}{%
+           family={Gyorgy},
+           familyi={G\bibinitperiod},
+           given={Katalin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=85e0aafd78ac7947e5a63ef8fa0784cb}{%
+           family={Kelemen},
            familyi={K\bibinitperiod},
-           given={Daphne},
-           giveni={D\bibinitperiod}}}%
-        {{hash=987ee418ae32e261a8a5385e14cda479}{%
-           family={Friedman},
-           familyi={F\bibinitperiod},
-           given={Nir},
-           giveni={N\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {MIT Press}%
-      }
-      \strng{namehash}{644f618617c37fd03b6bc0248cd308d5}
-      \strng{fullhash}{644f618617c37fd03b6bc0248cd308d5}
-      \strng{bibnamehash}{644f618617c37fd03b6bc0248cd308d5}
-      \strng{authorbibnamehash}{644f618617c37fd03b6bc0248cd308d5}
-      \strng{authornamehash}{644f618617c37fd03b6bc0248cd308d5}
-      \strng{authorfullhash}{644f618617c37fd03b6bc0248cd308d5}
-      \field{labelalpha}{KF09}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Probabilistic Graphical Models}
-      \field{year}{2009}
-    \endentry
-    \entry{Bottou:2010}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{hash=ac762f2592005edf6bad58f566967c6c}{%
-           family={Bottou},
-           familyi={B\bibinitperiod},
-           given={L{Ã©}on},
+           given={Andás},
+           giveni={A\bibinitperiod}}}%
+        {{hash=616c3fcbe4368f77035ccec5a086f39a}{%
+           family={Dávid},
+           familyi={D\bibinitperiod},
+           given={László},
            giveni={L\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Physica-Verlag HD}%
-      }
-      \strng{namehash}{ac762f2592005edf6bad58f566967c6c}
-      \strng{fullhash}{ac762f2592005edf6bad58f566967c6c}
-      \strng{bibnamehash}{ac762f2592005edf6bad58f566967c6c}
-      \strng{authorbibnamehash}{ac762f2592005edf6bad58f566967c6c}
-      \strng{authornamehash}{ac762f2592005edf6bad58f566967c6c}
-      \strng{authorfullhash}{ac762f2592005edf6bad58f566967c6c}
-      \field{labelalpha}{Bot10}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \strng{namehash}{662a0c5226dc8b263c064fe50ca4f5de}
+      \strng{fullhash}{662a0c5226dc8b263c064fe50ca4f5de}
+      \strng{bibnamehash}{662a0c5226dc8b263c064fe50ca4f5de}
+      \strng{authorbibnamehash}{662a0c5226dc8b263c064fe50ca4f5de}
+      \strng{authornamehash}{662a0c5226dc8b263c064fe50ca4f5de}
+      \strng{authorfullhash}{662a0c5226dc8b263c064fe50ca4f5de}
+      \field{labelalpha}{GKD14}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of COMPSTAT'2010}
-      \field{title}{Large-Scale Machine Learning with Stochastic Gradient Descent}
-      \field{year}{2010}
-      \field{pages}{177\bibrangedash 186}
+      \field{issn}{2212-0173}
+      \field{journaltitle}{Procedia Technology}
+      \field{title}{Unscented Kalman Filters and Particle Filter Methods for Nonlinear State Estimation}
+      \field{volume}{12}
+      \field{year}{2014}
+      \field{pages}{65\bibrangedash 74}
       \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.protcy.2013.12.457
+      \endverb
       \verb{urlraw}
-      \verb http://dx.doi.org/10.1007/978-3-7908-2604-3_16
+      \verb http://www.sciencedirect.com/science/article/pii/S2212017313006427
       \endverb
       \verb{url}
-      \verb http://dx.doi.org/10.1007/978-3-7908-2604-3_16
+      \verb http://www.sciencedirect.com/science/article/pii/S2212017313006427
       \endverb
+      \keyw{nonlinear state estimation,Unscented Kalman Filter,Particle Filter algorithm}
     \endentry
-    \entry{Hoffman:etal:2013:SVI}{article}{}
+    \entry{Tulsyan:2016}{article}{}
       \name{author}{4}{}{%
-        {{hash=937991c72400f4d0e0252027c8c03f67}{%
-           family={Hoffman},
-           familyi={H\bibinitperiod},
-           given={Matthew\bibnamedelima D.},
-           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=108998f0d44d4dce8ccb93e4d78cd5c6}{%
-           family={Blei},
+        {{hash=88f5386f7d0e5ebaaa95f096a828ff9d}{%
+           family={Tulsyan},
+           familyi={T\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ae7bb76f25f21169385b7b5b2f710238}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Yiting},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=985f25c7ed45fc2ab4368217d7c90945}{%
+           family={Gopaluni},
+           familyi={G\bibinitperiod},
+           given={R\bibnamedelima Bhushan},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=16a76e48fefd455ee54e381aa6ded242}{%
+           family={Braatz},
            familyi={B\bibinitperiod},
-           given={David\bibnamedelima M.},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=5305db1dfd127efb3eb09c039837c18f}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Chong},
-           giveni={C\bibinitperiod}}}%
-        {{hash=c8d689116a54128b56aa8f6997881eb6}{%
-           family={Paisley},
-           familyi={P\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{fc16df953492c457649c038eb0c3c1ec}
-      \strng{fullhash}{288065960564b676aee80ca62802a022}
-      \strng{bibnamehash}{fc16df953492c457649c038eb0c3c1ec}
-      \strng{authorbibnamehash}{fc16df953492c457649c038eb0c3c1ec}
-      \strng{authornamehash}{fc16df953492c457649c038eb0c3c1ec}
-      \strng{authorfullhash}{288065960564b676aee80ca62802a022}
-      \field{labelalpha}{Hof+13}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Machine Learning Research}
-      \field{title}{Stochastic Variational Inference}
-      \field{volume}{14}
-      \field{year}{2013}
-      \field{pages}{1303\bibrangedash 1347}
-      \range{pages}{45}
-    \endentry
-    \entry{Niepert:Domingos}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=24887ab1e4dffd3ecab8144e7c657e65}{%
-           family={Niepert},
-           familyi={N\bibinitperiod},
-           given={Mathias},
-           giveni={M\bibinitperiod}}}%
-        {{hash=926269a097c38456f5b32d7efb1d1a80}{%
-           family={Domingos},
-           familyi={D\bibinitperiod},
-           given={Pedro},
-           giveni={P\bibinitperiod}}}%
-      }
-      \name{editor}{2}{}{%
-        {{hash=b80203b0ba1299db35073382e835b485}{%
-           family={Xing},
-           familyi={X\bibinitperiod},
-           given={Eric\bibnamedelima P.},
-           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=b60ee7d2fae24ba9546e322d5471d27f}{%
-           family={Jebara},
-           familyi={J\bibinitperiod},
-           given={Tony},
-           giveni={T\bibinitperiod}}}%
+           given={Richard\bibnamedelima D},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {PMLR}%
+        {Elsevier}%
       }
-      \strng{namehash}{9d2719dad54e916d7c3de6ba0468416d}
-      \strng{fullhash}{9d2719dad54e916d7c3de6ba0468416d}
-      \strng{bibnamehash}{9d2719dad54e916d7c3de6ba0468416d}
-      \strng{authorbibnamehash}{9d2719dad54e916d7c3de6ba0468416d}
-      \strng{authornamehash}{9d2719dad54e916d7c3de6ba0468416d}
-      \strng{authorfullhash}{9d2719dad54e916d7c3de6ba0468416d}
-      \strng{editorbibnamehash}{8779f8110a0366a8dad555be758c5829}
-      \strng{editornamehash}{8779f8110a0366a8dad555be758c5829}
-      \strng{editorfullhash}{8779f8110a0366a8dad555be758c5829}
-      \field{labelalpha}{ND14}
+      \strng{namehash}{0425d1aa829e7f6d9a71bf37c84bcf3e}
+      \strng{fullhash}{02aa62e6fae47bd43640b53611b001d5}
+      \strng{bibnamehash}{0425d1aa829e7f6d9a71bf37c84bcf3e}
+      \strng{authorbibnamehash}{0425d1aa829e7f6d9a71bf37c84bcf3e}
+      \strng{authornamehash}{0425d1aa829e7f6d9a71bf37c84bcf3e}
+      \strng{authorfullhash}{02aa62e6fae47bd43640b53611b001d5}
+      \field{labelalpha}{Tul+16}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{A sequence of random variables is exchangeable if its joint distribution is invariant under variable permutations. We introduce exchangeable variable models (EVMs) as a novel class of probabilistic models whose basic building blocks are partially exchangeable sequences, a generalization of exchangeable sequences. We prove that a family of tractable EVMs is optimal under zero-one loss for a large class of functions, including parity and threshold functions, and strictly subsumes existing tractable independence-based model families. Extensive experiments show that EVMs outperform state of the art classifiers such as SVMs and probabilistic models which are solely based on independence assumptions.}
-      \field{booktitle}{Proceedings of the 31st International Conference on Machine Learning}
-      \field{number}{2}
-      \field{title}{Exchangeable Variable Models}
-      \field{volume}{32}
-      \field{year}{2014}
-      \field{pages}{271\bibrangedash 279}
-      \range{pages}{9}
-      \verb{urlraw}
-      \verb http://proceedings.mlr.press/v32/niepert14.html
-      \endverb
-      \verb{url}
-      \verb http://proceedings.mlr.press/v32/niepert14.html
-      \endverb
-    \endentry
-    \entry{Niepert:vdBroeck:2014:TractExch}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=24887ab1e4dffd3ecab8144e7c657e65}{%
-           family={Niepert},
-           familyi={N\bibinitperiod},
-           given={Mathias},
-           giveni={M\bibinitperiod}}}%
-        {{hash=2b63ecbaa8b74dce9afa167d62988b5a}{%
-           family={Van\bibnamedelimb Den\bibnamedelima Broeck},
-           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Guy},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {AAAI Press}%
-      }
-      \strng{namehash}{a7e2587ddfe7b7c3dcce1efdcf73c25a}
-      \strng{fullhash}{a7e2587ddfe7b7c3dcce1efdcf73c25a}
-      \strng{bibnamehash}{a7e2587ddfe7b7c3dcce1efdcf73c25a}
-      \strng{authorbibnamehash}{a7e2587ddfe7b7c3dcce1efdcf73c25a}
-      \strng{authornamehash}{a7e2587ddfe7b7c3dcce1efdcf73c25a}
-      \strng{authorfullhash}{a7e2587ddfe7b7c3dcce1efdcf73c25a}
-      \field{labelalpha}{NV14}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the Twenty-Eighth AAAI Conference on Artificial Intelligence}
-      \field{series}{AAAI'14}
-      \field{title}{Tractability Through Exchangeability: A New Perspective on Efficient Probabilistic Inference}
-      \field{year}{2014}
-      \field{pages}{2467\bibrangedash 2475}
-      \range{pages}{9}
+      \field{journaltitle}{Journal of Power Sources}
+      \field{title}{State-of-charge estimation in lithium-ion batteries: A particle filter approach}
+      \field{volume}{331}
+      \field{year}{2016}
+      \field{pages}{208\bibrangedash 223}
+      \range{pages}{16}
     \endentry
   \enddatalist
+  \missing{Tulsyan:etal:2016}
 \endrefsection
 \endinput
 
