@@ -113,6 +113,10 @@
 % operators
 \def\P{\bbP} %fundamental probability
 \def\E{\bbE} %expectation
+\def\var{\text{Var}}
+\def\covar{\text{Cov}}
+%norm
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}
 % conditional expectation
 \DeclarePairedDelimiterX\bigCond[2]{[}{]}{#1 \;\delimsize\vert\; #2}
 \newcommand{\conditional}[3][]{\bbE_{#1}\bigCond*{#2}{#3}}

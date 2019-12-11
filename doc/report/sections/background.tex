@@ -2,8 +2,46 @@
 
 % Background section
 
-\section{Background}
+\section{Introduction}
+Nonlinear state estimation refers to estimating the true \textit{state} of a dynamic model where the underlying relationship between the \textit{observations} $(X_n)_{n \geq 1}$ (which are often corrupted versions of the \textit{state}) and the \textit{state} $(Y_n)_{n \geq 1}$ where the relationship between $X_n$ and $Y_n$ is nonlinear. There are a handful of examples listed which \cite{liu1998sequential} lists out: the states $(X_n)_{n \geq 1}$ could be unobserved signals in signal processing \cite{liu1995blind}, some characteristic of shapes observed from sequence of images \cite{blake1998statistical} and velocity of an object in a multi-target tracking problem in \cite{gordon1993novel}. These type of models where the stochastic process we are interested in is `hidden' and only inferable through some observations are called Hidden Markov Models. This term will be defined in the next section. 
 
+We are using the notation $x_{1:n}$ for $\{ x_1, x_2, ..., x_n \}$, where $x_{1:n} \in \calX^n$.
+For a filtering problem, one is interested in approximating the probability density of current state conditioned on the previous observations, $p(x_t|y_1, y_2, ..., y_t)$ at some $t$. Kalman filter is known to have a closed-form solution to this problem given that all noise is linear and Gaussian. For nonlinear state estimation problems, one can use the extended Kalman filter which linearizes about the unknown state. However, estimated the probability density function is still approximated by a Gaussian \cite{gordon1993novel}. To better approximate the underlying distribution, particle filtering (or sequential Monte Carlo) methods can be used to approximate the conditional probability density $p(x_t|y_1, y_2, ..., y_t)$. The basis of Sequential Monte Carlo (SMC) is sequential importance sampling (SIS) and resampling. SIS and resampling methods will be discussed further in later sections. First, we define Hidden Markov Models.
+\subsection{Hidden Markov Model}
+Let $(\Omega,\calH,\bbP)$ be a probability space. We adot the definition of Markovian process from \cite{cinlar},
+\begin{definition}
+	Suppose we have a stochastic process $X= (X_t)_{t \in \bbT}$  and is adapted to filtration $\calF=(\calF_t)_{t \in \bbT}$.  $X$ is \textit{Markovian with relative to} $\calF$ if for every time $t$, the past $\calF_t$ and $\calG^t_\infty = \sigma\{X_u: u \geq t, u \in \bbT \}$ are conditionally independent given the present state $X_t$.
+\end{definition}
+The definition says that if a process $X$ is Markovian, the future events are only determined by the present state $X_t$ and is independent of the past. We can define \textit{Hidden Markov Model (HMM)} as follows \cite{}
+\begin{definition}
+	Let $(X_n)_{n \geq 1}$ and $(Y_n)_{n \geq 1}$ be discrete time stochastic processes. $(X_n, Y_n)$ is a HMM if
+	\begin{itemize}
+		\item $X_n$ is a Markov process that is not directly observable with a initial distribution $\mu$ that describes the initial state, and the transitional kernel $K(x,B)  = \bbP(X_n \in B |  X_1 = x_1, ..., X_{n-1} = x_{n-1}) = \bbP(X_n \in B | X_{n-1}=x_{n-1})$, for $B \in \borel(\bbR^d).$ Let us call the associated density function $f(x_n|x_{n-1})$.
+		\item $Y_n$ are observations whose marginal distribution is given by $\bbP(Y_n \in A| X_1 = x_1, ..., X_n = x_n) = \bbP(Y_n \in A|X_n = x_n)$, for any measurable set $A \in \borel(\bbR^d)$. Let us denote the marginal density as $g(y_n|x_n)$.
+	\end{itemize}
+	
+	Therefore, HMM can be completely described by the initial measure $\mu$, the transition probability kernel density $f$ and the marginal density $g$.
+	
+\end{definition}
+Add definition of probabilistic dynamic system? 
 
+In the light of Baye's Theorem, according to \cite{SMCinPrac} the posterior distribution is given by
+\begin{equation}
+p(x_{1:n}|y_{1:n}) = \dfrac{p(y_{1:n}|x_{1:n})p(x_{1:n})}{p(y_{1:n})}.
+\end{equation}
+We can recursively define the evolving posterior as how? 
+\begin{equation}
+p(x_{1:n+1}|y_{1:n+1}) = p(x_{1:n}|y_{1:n}) \dfrac{p(y_{n+1}|x_{n+1})p(x_{n+1}|x_{1:n})}{p(y_{n+1}|y_{1:n})}
+\end{equation}
+This allows us to update the posterior and predict the next state  
+\begin{align}
+p(x_n|y_{1:n-1}) &= \int p(x_{n}|x_{n-1})p(x_{n-1}|y_{1:n-1}) dx_{n-1} &\text{Predict}\\
+p(x_n|y_{1:n}) &= \dfrac{p(y_n|x_n)p(x_n|y_{1:n-1})}{\int p(y_n|x_n)p(x_n|y_{1:n-1})} &\text{Update}
+\end{align}
 
-% ...
+In general, these conditional distributions involving high dimensional integrals is hard to compute. This is why methods like Monte Carlo exist, because it allow us to approximate these quantities without having to compute the integrals, recursively.  
+
+For the rest of the paper, we denote the posterior $p(x_{1:n}|y_{1:n})$ as a general probability density $\pi_n(x_{1:n})$ known up to a normalizing constant.
+\begin{align}
+\pi_n(x_{1:n}) = \dfrac{\gamma_n(x_{1:n})}{Z_n}, &{\hspace{3mm} Z_n = \int \gamma_n(x_{1:n}) d{x_{1:n}}}.
+\end{align}

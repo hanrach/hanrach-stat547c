@@ -3,3 +3,12 @@
 % open questions section
 
 \section{Open questions and research directions}
+
+
+Now that we know the theoretical justification of SMC methods, we can use it for applications of interest. A particular area I am interested in is estimating battery characteristics. For example, there is an active area of battery research devoted to create efficient estimation methods for the state of charge(SoC). The amount of charge in a battery with certain capacity is called SoC, like the battery indicator one would see on a laptop or phone (0\% to 100\% scale). One might notice that the battery indicator reflects the true SoC for a new device but as the device gets old, the estimated SoC would be less accurate. SoC cannot be measured directly but can be inferred from other measurements such as voltage and current. In fact, SoC is a function of solid lithium ion concentrations, which we denote by $c$.
+
+Mainly, there are two battery models: equivalent circuit model and electrochemical model. The electrochemical models that describe the dynamics within the battery, which are made up of complex, deterministic partial differential algebraic equations (PDAE) to model Li-ion concentration, flux, electrolyte concentration, temperature, etc. Equivalent circuit model consists of open circuit voltage, resistor and capacitance. To formulate a particle filter problem, one would need to create a state-space model. There are different proposed state-space models from both of these models, see \cite{he2011evaluation} and \cite{tulsyan2016state}. One would need to consider the complexity of the model when selecting which dynamics to include and choosing the right parameters is not a trivial task either. 
+
+The biggest challenge appears to be selecting the importance density. In \cite{tulsyan2016state}, the authors use Dirac distribution to satisfy the boundary conditions in their electrochemical model based particle filter approach. \cite{miao2013remaining} uses equivalent circuit model and Gaussian importance density function. However, using Gaussian may not be exploiting the full benefits particle filter that is suited for nonlinear and non-Gaussian problems. Picking a importance density that is justifiable is a crucial step in reducing the variance of the method. Then, one needs to consider the appropriate sampling technique to draw samples from the importance density. One can also experiment with various resampling methods. 
+
+ 
